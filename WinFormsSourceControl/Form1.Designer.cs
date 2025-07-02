@@ -33,6 +33,8 @@
             lengthTextBox = new TextBox();
             widthTextBox = new TextBox();
             calcAreaAndPerimeterButton = new Button();
+            areaTextBox = new TextBox();
+            perimeterTextBox = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -75,12 +77,31 @@
             calcAreaAndPerimeterButton.TabIndex = 4;
             calcAreaAndPerimeterButton.Text = "Calculate Area and Perimeter";
             calcAreaAndPerimeterButton.UseVisualStyleBackColor = true;
+            calcAreaAndPerimeterButton.Click += calcAreaAndPerimeterButton_Click;
+            // 
+            // areaTextBox
+            // 
+            areaTextBox.Location = new Point(306, 154);
+            areaTextBox.Name = "areaTextBox";
+            areaTextBox.ReadOnly = true;
+            areaTextBox.Size = new Size(152, 23);
+            areaTextBox.TabIndex = 5;
+            // 
+            // perimeterTextBox
+            // 
+            perimeterTextBox.Location = new Point(306, 204);
+            perimeterTextBox.Name = "perimeterTextBox";
+            perimeterTextBox.ReadOnly = true;
+            perimeterTextBox.Size = new Size(152, 23);
+            perimeterTextBox.TabIndex = 6;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(perimeterTextBox);
+            Controls.Add(areaTextBox);
             Controls.Add(calcAreaAndPerimeterButton);
             Controls.Add(widthTextBox);
             Controls.Add(lengthTextBox);
@@ -99,5 +120,7 @@
         private TextBox lengthTextBox;
         private TextBox widthTextBox;
         private Button calcAreaAndPerimeterButton;
+        private TextBox areaTextBox;
+        private TextBox perimeterTextBox;
     }
 }
