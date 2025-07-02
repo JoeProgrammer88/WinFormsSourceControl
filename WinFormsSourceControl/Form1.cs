@@ -20,7 +20,7 @@ public partial class Form1 : Form
             MessageBox.Show("Please enter a valid integer for width.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return;
         }
-        int area = length * width;
+        int area = length * width
         int perimeter = length * 2 + width * 2;
 
         areaTextBox.Text = $"Area is: {area}";
