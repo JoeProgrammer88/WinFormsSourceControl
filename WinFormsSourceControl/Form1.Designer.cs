@@ -40,7 +40,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(104, 82);
+            label1.Location = new Point(35, 40);
             label1.Name = "label1";
             label1.Size = new Size(44, 15);
             label1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(104, 137);
+            label2.Location = new Point(35, 95);
             label2.Name = "label2";
             label2.Size = new Size(39, 15);
             label2.TabIndex = 1;
@@ -57,21 +57,21 @@
             // 
             // lengthTextBox
             // 
-            lengthTextBox.Location = new Point(160, 79);
+            lengthTextBox.Location = new Point(91, 37);
             lengthTextBox.Name = "lengthTextBox";
             lengthTextBox.Size = new Size(100, 23);
             lengthTextBox.TabIndex = 2;
             // 
             // widthTextBox
             // 
-            widthTextBox.Location = new Point(160, 134);
+            widthTextBox.Location = new Point(91, 92);
             widthTextBox.Name = "widthTextBox";
             widthTextBox.Size = new Size(100, 23);
             widthTextBox.TabIndex = 3;
             // 
             // calcAreaAndPerimeterButton
             // 
-            calcAreaAndPerimeterButton.Location = new Point(128, 181);
+            calcAreaAndPerimeterButton.Location = new Point(59, 139);
             calcAreaAndPerimeterButton.Name = "calcAreaAndPerimeterButton";
             calcAreaAndPerimeterButton.Size = new Size(132, 66);
             calcAreaAndPerimeterButton.TabIndex = 4;
@@ -81,7 +81,7 @@
             // 
             // areaTextBox
             // 
-            areaTextBox.Location = new Point(306, 154);
+            areaTextBox.Location = new Point(237, 112);
             areaTextBox.Name = "areaTextBox";
             areaTextBox.ReadOnly = true;
             areaTextBox.Size = new Size(152, 23);
@@ -89,7 +89,7 @@
             // 
             // perimeterTextBox
             // 
-            perimeterTextBox.Location = new Point(306, 204);
+            perimeterTextBox.Location = new Point(237, 162);
             perimeterTextBox.Name = "perimeterTextBox";
             perimeterTextBox.ReadOnly = true;
             perimeterTextBox.Size = new Size(152, 23);
@@ -99,7 +99,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(416, 266);
             Controls.Add(perimeterTextBox);
             Controls.Add(areaTextBox);
             Controls.Add(calcAreaAndPerimeterButton);
