@@ -88,7 +88,6 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Area and Perimeter Calculator";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
